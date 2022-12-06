@@ -1,0 +1,118 @@
+.contact-form {
+    width: 100%;
+    margin-top: 20px;
+
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+        li {
+            padding: 0;
+            margin: 0;
+            margin-bottom: 10px;
+            overflow: hidden;
+            display: block;
+            position: relative;
+            animation: fadeInUp 2s 2s;
+            -webkit-animation: fadeInUp 2s 2s;
+            animation-fill-mode: forwards;
+        }
+
+        li.half {
+            width: 49%;
+            display: inline-block;
+
+            &:first-child {
+                margin-right: 2%;
+            }
+        }
+
+        input:not([type="submit"]),
+        textarea {
+            width: 100%;
+            border: 0;
+            background-color: #115173;
+            padding: 10px;
+            font-size: 16px;
+            caret-color: #fff;
+            font-family: sans-serif;
+            color: #fff;
+
+            &:focus {
+                outline: none;
+                border-bottom: 1px solid var(--main-blue);
+                color: #fff;
+            }
+        }
+
+        textarea {
+            margin-top: 5px;
+
+
+        }
+
+        input:not([type="submit"])::placeholder,
+        textarea::placeholder {
+            color: #fff;
+        }
+
+        .contact-button {
+            color: var(--main-blue);
+            background-color: transparent;
+            letter-spacing: 4px;
+            padding: 10px 20px;
+            border: 1px solid var(--main-blue);
+            margin-top: 20px;
+            font-weight: 500;
+            font-family: sans-serif;
+
+            &:hover {
+                color: #333;
+                background-color: var(--main-blue);
+            }
+        }
+    }
+}
+
+.map-info {
+    position: absolute;
+    background-color: #000;
+    top: 50px;
+    right: 30%;
+    z-index: 12;
+    width: 267px;
+    padding: 20px;
+    color: #fff;
+    font-family: 'Helvetica';
+    font-weight: 300;
+    font-size: 17px;
+    opacity: 0;
+    animation: fadeIn 1s 1.5s;
+    -webkit-animation: fadeIn 1s 1.5s;
+    animation-fill-mode: forwards;
+
+    span {
+        font-size: 20px;
+        display: block;
+        padding-top: 20px;
+        color: var(--main-blue);
+    }
+}
+
+.map-wrap {
+    background-color: rgba(8, 253, 216, .1);
+    width: 53%;
+    height: 100vh;
+    float: right;
+}
+
+.leaflet-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    opacity: 0;
+    animation: backInRight 1s 1.2s;
+    -webkit-animation: backInRight 1s 1.2s;
+    animation-fill-mode: forwards;
+}

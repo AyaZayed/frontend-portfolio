@@ -1,0 +1,148 @@
+[
+  {
+    "id": "1",
+    "name": "Tic Tac Toe Game",
+    "url": "https://az-tic-tac-toe.netlify.app/",
+    "image": "/projects images/tic tac toe.png",
+    "description": "Game made with React.js and CSS",
+    "github": "https://github.com/AyaZayed/React-Tic-Tac-Toe"
+  },
+  {
+    "id": "6",
+    "name": "Kasper",
+    "url": "http://azportfolio.me/Kasper-Elzero-Second-HTML-and-CSS-Template/",
+    "image": "/projects images/kasper.png",
+    "description": "Landing page made with HTML and CSS",
+    "github": "https://github.com/AyaZayed/Kasper-Elzero-Second-HTML-and-CSS-Template"
+  },
+  {
+    "id": "11",
+    "name": "Social Proof Section",
+    "url": "http://azportfolio.me/Frontend-Mentor-Social-Proof-Section/",
+    "image": "/projects images/social proof.png",
+    "description": "Frontend Mentor challenge made with HTML and CSS",
+    "github": "https://github.com/AyaZayed/Frontend-Mentor-Social-Proof-Section"
+  },
+  {
+    "id": "2",
+    "name": "Would You Rather Game",
+    "url": "https://az-would-you-rather.netlify.app/",
+    "image": "/projects images/would you rather.png",
+    "description": "Game made with React.js, Redux and CSS",
+    "github": "https://github.com/AyaZayed/Would-You-Rather"
+  },
+  {
+    "id": "8",
+    "name": "Fylo",
+    "url": "http://azportfolio.me/Frontend-Mentor-Fylo-Data-Storage-Component/",
+    "image": "/projects images/fylo.png",
+    "description": "Frontend Mentor challenge made with HTML and CSS",
+    "github": "https://github.com/AyaZayed/Frontend-Mentor-Fylo-Data-Storage-Component"
+  },
+  {
+    "id": "3",
+    "name": "My Reads",
+    "url": "https://az-myreads.netlify.app/",
+    "image": "/projects images/my reads.png",
+    "description": "Book shelf organizer made with React.js and CSS",
+    "github": "https://github.com/AyaZayed/MyReads-React-Book-Shelf-Site"
+  },
+  {
+    "id": "9",
+    "name": "Testimonials Grid",
+    "url": "http://azportfolio.me/Frontend-Mentor-Testimonials-Grid-Section/",
+    "image": "/projects images/testimonials.png",
+    "description": "Frontend Mentor challenge made with HTML and CSS",
+    "github": "https://github.com/AyaZayed/Frontend-Mentor-Testimonials-Grid-Section"
+  },
+  {
+    "id": "4",
+    "name": "Registration Form",
+    "url": "https://az-registration-form.netlify.app/",
+    "image": "/projects images/registration form.png",
+    "description": "Registration form made with React.js and CSS",
+    "github": "https://github.com/AyaZayed/React-registration-form"
+  },
+  {
+    "id": "7",
+    "name": "Clipboard",
+    "url": "http://azportfolio.me/Frontend-Mentor-Clipboard-Landing-Page/",
+    "image": "/projects images/clipboard.png",
+    "description": "Frontend Mentor landing page made with HTML and CSS",
+    "github": "https://github.com/AyaZayed/Frontend-Mentor-Clipboard-Landing-Page"
+  },
+  {
+    "id": "5",
+    "name": "Temperature Control App",
+    "url": "https://az-temperature-control.netlify.app/",
+    "image": "/projects images/temperature.png",
+    "description": "Temperature control app made with React.js and CSS",
+    "github": "https://github.com/AyaZayed/React-Temperature-Control-App"
+  },
+
+  {
+    "id": "10",
+    "name": "Huddle Landing Page",
+    "url": "http://azportfolio.me/Frontend-Mentor-Huddle-landing-page-with-a-single-introductory-section/",
+    "image": "/projects images/huddle.png",
+    "description": "Frontend Mentor challenge made with HTML and CSS",
+    "github": "https://github.com/AyaZayed/Frontend-Mentor-Huddle-landing-page-with-a-single-introductory-section"
+  },
+
+  {
+    "id": "12",
+    "name": "Single Price Card",
+    "url": "http://azportfolio.me/Frontend-Mentor-Single-Price-Grid-Component/",
+    "image": "/projects images/single price.png",
+    "description": "Frontend Mentor challenge made with HTML and CSS",
+    "github": "https://github.com/AyaZayed/Frontend-Mentor-Single-Price-Grid-Component"
+  },
+  {
+    "id": "13",
+    "name": "Stats Preview Card",
+    "url": "http://azportfolio.me/Frontend-Mentor-Stats-Preview-Card-Component/",
+    "image": "/projects images/stats preview card.png",
+    "description": "Frontend Mentor challenge made with HTML and CSS",
+    "github": "https://github.com/AyaZayed/Frontend-Mentor-Stats-Preview-Card-Component"
+  },
+  {
+    "id": "14",
+    "name": "3 Column Preview Card",
+    "url": "http://azportfolio.me/Frontend-Mentor-3-Column-Preview-Card-Component/",
+    "image": "/projects images/3 column card.png",
+    "description": "Frontend Mentor challenge made with HTML and CSS",
+    "github": "https://github.com/AyaZayed/Frontend-Mentor-3-Column-Preview-Card-Component"
+  },
+  {
+    "id": "15",
+    "name": "Agency Template",
+    "url": "http://azportfolio.me/Agency-Template-Elzero/",
+    "image": "/projects images/agency.png",
+    "description": "Landing page made with HTML and CSS",
+    "github": "https://github.com/AyaZayed/Agency-Template-Elzero"
+  },
+  {
+    "id": "16",
+    "name": "Order Summary Card",
+    "url": "http://azportfolio.me/Frontend-Mentor-Order-Summary-Card-Component/",
+    "image": "/projects images/order.png",
+    "description": "Frontend Mentor challenge made with HTML and CSS",
+    "github": "https://github.com/AyaZayed/Frontend-Mentor-Order-Summary-Card-Component"
+  },
+  {
+    "id": "17",
+    "name": "NFT Preview Card",
+    "url": "http://azportfolio.me/Frontend-Mentor-NFT-Preview-Card-Component/",
+    "image": "/projects images/nft.png",
+    "description": "Frontend Mentor challenge made with HTML and CSS",
+    "github": "https://github.com/AyaZayed/Frontend-Mentor-NFT-Preview-Card-Component"
+  },
+  {
+    "id": "18",
+    "name": "QR Code Component Card",
+    "url": "http://azportfolio.me/Frontend-Mentor-QR-Code-Component/",
+    "image": "/projects images/qr.png",
+    "description": "Frontend Mentor challenge made with HTML and CSS",
+    "github": "https://github.com/AyaZayed/Frontend-Mentor-QR-Code-Component"
+  }
+]

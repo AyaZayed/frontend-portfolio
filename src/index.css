@@ -1,0 +1,21 @@
+:root {
+  --background-dark-blue: #2b2d42;
+  --main-blue: #5ce1e6;
+  --main-red: #b0365a;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+
+body {
+  margin: 0;
+  font: 300 11px/1.5 "Helvetica Neue", sans-serif;
+  overflow: hidden;
+  display: block;
+  color: #fff;
+  background: var(--background-dark-blue);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
