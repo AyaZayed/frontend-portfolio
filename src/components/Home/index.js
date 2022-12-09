@@ -1,10 +1,9 @@
 import "./index.scss";
-import LogoA from "../../assets/images/A-logo.png";
-import LogoZ from "../../assets/images/Z-logo.png";
-import { Link } from "react-router-dom";
+import LogoA from "../../assets/images/A.png";
+import LogoZ from "../../assets/images/Z.png";
+import Aya from "../../assets/images/blurred.png";
 import { useEffect, useState } from "react";
 import AnimatedLetters from "../AnimatedLetters";
-import Logo from "./Logo";
 import Loader from "react-loaders";
 
 function Home() {
@@ -20,13 +19,28 @@ function Home() {
     }, 4000);
   }, []);
 
+  const onButtonClick = () => {
+        // using Java Script method to get PDF file
+        fetch('resume.pdf').then(response => {
+            response.blob().then(blob => {
+                // Creating new object of PDF file
+                const fileURL = window.URL.createObjectURL(blob);
+                // Setting various property values
+                let alink = document.createElement('a');
+                alink.href = fileURL;
+                alink.download = 'Aya Zayed Resume.pdf';
+                alink.click();
+            })
+        })
+    }
+
   return (
     <>
       <div className="container home-page">
         <div className="text-zone">
           <h1>
             <span className={letterClass}>H</span>
-            <span className={`${letterClass} _12`}>i</span>
+            <span className={`${letterClass} _12`}>i,</span>
             <br />
             <span className={`${letterClass} _13`}>I</span>
             <span className={`${letterClass} _14`}>'m</span>
@@ -49,11 +63,13 @@ function Home() {
               idx={23}
             />
           </h1>
-          <Link to="/contact" exact className="contact-button">
-            CONTACT ME
-          </Link>
+          <a className="contact-button" onClick={onButtonClick}>
+            DOWNLOAD CV
+          </a>
         </div>
-        <Logo />
+        <div className="logo-container">
+        <img src={Aya} alt="aya's image" className="solid-logo"/>
+        </div>
       </div>
       <Loader type="pacman" />
     </>

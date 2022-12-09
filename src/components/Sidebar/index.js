@@ -1,6 +1,6 @@
 import "./index.scss";
 import { Link, NavLink } from "react-router-dom";
-import Logo from "../../assets/images/az-logo.png";
+import Logo from "../../assets/images/AZ.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faBriefcase,

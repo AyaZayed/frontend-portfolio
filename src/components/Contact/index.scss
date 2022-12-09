@@ -32,17 +32,17 @@
         textarea {
             width: 100%;
             border: 0;
-            background-color: #115173;
+            background-color: #EFE2C8;
             padding: 10px;
             font-size: 16px;
-            caret-color: #fff;
+            caret-color: #000;
             font-family: sans-serif;
-            color: #fff;
+            color: #000;
 
             &:focus {
                 outline: none;
                 border-bottom: 1px solid var(--main-blue);
-                color: #fff;
+                color: #000;
             }
         }
 
@@ -54,7 +54,7 @@
 
         input:not([type="submit"])::placeholder,
         textarea::placeholder {
-            color: #fff;
+            color: #000;
         }
 
         .contact-button {

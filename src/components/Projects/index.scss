@@ -56,8 +56,8 @@
             -ms-transition: 0.3s;
             -o-transition: 0.3s;
             bottom: -100%;
-            background-color: #b0365be2;
-            color: #fff;
+            background-color: #EFE2C8;
+            color: #000;
             font-family: 'Coolvetica', sans-serif;
             letter-spacing: 2px;
 
@@ -66,9 +66,13 @@
             }
 
             a {
-                color: #fff;
+                color: #000;
                 font-size: 22px;
                 margin-right: 10px;
+
+                &:hover{
+                    color: var(--main-blue);
+                }
             }
         }
     }
