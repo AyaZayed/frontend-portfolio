@@ -9,22 +9,20 @@ function Layout() {
       <Loader type="pacman" />
       <div>
         <Sidebar></Sidebar>
-        <div className="App">
           <div className="page">
-            <span className="tags top-tags">
-              <span className="html-tag">
-                &lt;html&gt;
-                <br />
+              <span className="tags top-tags">
+                <span className="html-tag">
+                  &lt;html&gt;
+                  <br />
+                </span>
+                &lt;body&gt;
               </span>
-              &lt;body&gt;
-            </span>
-            <Outlet></Outlet>
-            <span className="tags bottom-tags">
-              &lt;body&gt;
-              <br />
-              <span className="html-tag">&lt;html&gt;</span>
-            </span>
-          </div>
+              <Outlet></Outlet>
+              <span className="tags bottom-tags">
+                &lt;body&gt;
+                <br />
+                <span className="html-tag">&lt;html&gt;</span>
+              </span>
         </div>
       </div>
     </>

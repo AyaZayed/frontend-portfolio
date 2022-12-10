@@ -1,7 +1,7 @@
 .page {
   width: 100%;
-  height: 100%;
-  position: absolute;
+  height: 100vh;
+  // display: flex;
 }
 
 .top-tags {
@@ -10,7 +10,7 @@
 }
 
 .tags {
-  color: var(--main-blue);
+  color: var(--main-orange);
   opacity: 0.6;
   font-size: 18px;
   font-family: "La Belle Aurore";
@@ -24,48 +24,31 @@
 }
 
 .container {
-  width: 100%;
+  width: calc(100% - 120px);
   will-change: contents;
-  height: 90%;
-  min-height: 566px;
-  position: absolute;
+  display: flex;
+  height: 100vh;
   opacity: 0;
-  // top: 5%;
   margin: 0 auto;
   z-index: 1;
   transform-style: preserve-3d;
   animation: fadeIn 1s forwards;
   -webkit-animation: fadeIn 1s forwards;
   animation-delay: 1s;
-}
-
-.about-page,
-.contact-page,
-.projects-page {
-  .text-zone {
-    position: absolute;
-    left: 10%;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 35%;
-    vertical-align: middle;
-    display: table-cell;
-    max-height: 90%;
 
     h1 {
       font-size: 53px;
       font-family: "Coolvetica";
       font-weight: normal;
-      color: var(--main-blue);
+      color: #fff;
       margin-bottom: 40px;
       margin-top: 0;
-      position: relative;
-      left: 10px;
+      white-space: nowrap;
 
       &::before,
       &::after {
         position: absolute;
-        color: var(--main-blue);
+        color: var(--main-orange);
         opacity: .6;
         font-family: 'La Belle Aurore';
         font-size: 18px;
@@ -74,14 +57,14 @@
 
       &::before {
         content: "<h1>";
-        margin-top: -10px;
-        left: -10px;
+        top: 100px; 
+        left: 90px;
       }
 
       &::after {
         content: "</h1>";
-        bottom: -15px;
-        left: -10px;
+        top: 190px;
+        left: 90px;
       }
     }
 
@@ -89,7 +72,7 @@
       font-size: 13px;
       font-family: sans-serif;
       font-weight: 300;
-      min-width: fit-content;
+      width: 60%;
       line-height: 22px;
       animation: pulse 1s;
       -webkit-animation: pulse 1s;
@@ -109,8 +92,25 @@
 
     .text-animate-hover {
       &:hover {
-        color: #fff;
+        color: var(--main-orange);
       }
     }
   }
-}
+
+  @media screen and (max-width:768px) {
+    .container{
+      flex-wrap: wrap;
+    }
+    .text-zone{
+      padding-left: 2rem;
+      padding-right: 2rem;
+      margin-bottom: 6rem;
+    }
+    .nav-bar{
+      display: none;
+
+      .bars{
+        display: block;
+      }
+    }
+  }

@@ -60,8 +60,8 @@ function Projects() {
               letterClass={letterClass}
             />
           </h1>
-        </div>
         <div>{renderProjects(ProjectsData)}</div>
+        </div>
       </div>
       <Loader type="pacman" />
     </>

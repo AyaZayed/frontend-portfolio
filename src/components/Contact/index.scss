@@ -41,7 +41,7 @@
 
             &:focus {
                 outline: none;
-                border-bottom: 1px solid var(--main-blue);
+                border-bottom: 1px solid var(--main-orange);
                 color: #000;
             }
         }
@@ -58,18 +58,18 @@
         }
 
         .contact-button {
-            color: var(--main-blue);
+            color: var(--main-orange);
             background-color: transparent;
             letter-spacing: 4px;
             padding: 10px 20px;
-            border: 1px solid var(--main-blue);
+            border: 1px solid var(--main-orange);
             margin-top: 20px;
             font-weight: 500;
             font-family: sans-serif;
 
             &:hover {
                 color: #333;
-                background-color: var(--main-blue);
+                background-color: var(--main-orange);
             }
         }
     }
@@ -96,7 +96,7 @@
         font-size: 20px;
         display: block;
         padding-top: 20px;
-        color: var(--main-blue);
+        color: var(--main-orange);
     }
 }
 

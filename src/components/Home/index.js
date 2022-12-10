@@ -36,9 +36,9 @@ function Home() {
 
   return (
     <>
-      <div className="container home-page">
+      <div className="container">
         <div className="text-zone">
-          <h1>
+          <h1 id="home-h1">
             <span className={letterClass}>H</span>
             <span className={`${letterClass} _12`}>i,</span>
             <br />
@@ -67,7 +67,7 @@ function Home() {
             DOWNLOAD CV
           </a>
         </div>
-        <div className="logo-container">
+        <div className="img-container">
         <img src={Aya} alt="aya's image" className="solid-logo"/>
         </div>
       </div>

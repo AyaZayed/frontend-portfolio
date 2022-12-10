@@ -1,7 +1,7 @@
 :root {
-  --background-dark-blue: #060606;
-  --main-blue: #ff7b00;
-  --main-red: #EFE2C8;
+  --background-dark: #060606;
+  --main-orange: #ff7b00;
+  --main-light: #EFE2C8;
 }
 
 html {
@@ -12,10 +12,10 @@ html {
 body {
   margin: 0;
   font: 300 11px/1.5 "Helvetica Neue", sans-serif;
-  overflow: hidden;
   display: block;
   color: #fff;
-  background: var(--background-dark-blue);
+  height: 100vh;
+  background: var(--background-dark);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

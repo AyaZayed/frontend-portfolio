@@ -48,7 +48,7 @@ function Contact() {
             ></AnimatedLetters>
           </h1>
           <p>
-            I live in Mansoura, Egypt but I'm willing to relocate. I would love
+            I live in Mansoura, Egypt but I want to relocate. I would love
             to hear from you even if it's just to say hi. If you have some
             constructive criticism, please feel free to reach out.
           </p>
@@ -92,20 +92,22 @@ function Contact() {
             </form>
           </div>
         </div>
-        <div className="map-info">
-          Aya Zayed
-          <br />
-          Mansoura, Egypt
-          <br />
-          <span>ayazayedofficial@gmail.com</span>
-        </div>
-        <div className="map-wrap">
-          <MapContainer center={[31.0160174, 31.3198379]} zoom={13}>
-            <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <Marker position={[31.0160174, 31.3198379]}>
-              <Popup>I live here, come over for a cup of tea :)</Popup>
-            </Marker>
-          </MapContainer>
+        <div className="map-section">
+          <div className="map-info">
+            Aya Zayed
+            <br />
+            Mansoura, Egypt
+            <br />
+            <span>ayazayedofficial@gmail.com</span>
+          </div>
+          <div className="map-wrap">
+            <MapContainer center={[31.0160174, 31.3198379]} zoom={13}>
+              <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+              <Marker position={[31.0160174, 31.3198379]}>
+                <Popup>I live here, come over for a cup of tea :)</Popup>
+              </Marker>
+            </MapContainer>
+          </div>
         </div>
       </div>
       <Loader type="pacman" />
