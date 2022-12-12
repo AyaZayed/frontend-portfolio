@@ -18,19 +18,21 @@ function Sidebar() {
   return (
 
     <>
-      <FontAwesomeIcon
+      <div className="nav-bar">
+        <Link className="logo" to="/">
+          <img src={Logo} alt="logo" />
+        </Link>
+
+        <FontAwesomeIcon
         className="bars"
         icon={faBars}
         size="2x"
         onClick={() => setIsNavOpen(!isNavOpen)}
       ></FontAwesomeIcon>
-      {isNavOpen ? <div className="nav-bar">
-        <Link className="logo" to="/">
-          <img src={Logo} alt="logo" />
-        </Link>
-
-        <nav>
-          <NavLink exact="true" activeclassname="active" to="/">
+        
+        <nav className={`nav-links ${isNavOpen ? "expanded" : null}`}>
+          <div>
+            <NavLink exact="true" activeclassname="active" to="/">
             <FontAwesomeIcon icon={faHome}></FontAwesomeIcon>
           </NavLink>
           <NavLink
@@ -57,8 +59,9 @@ function Sidebar() {
           >
             <FontAwesomeIcon icon={faBriefcase}></FontAwesomeIcon>
           </NavLink>
-        </nav>
-        <ul>
+          </div>
+
+          <ul>
           <li>
             <a
               target="_blank"
@@ -77,8 +80,9 @@ function Sidebar() {
               <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
             </a>
           </li>
-        </ul>
-      </div> : null}
+          </ul>
+          </nav>
+          </div>
       </>
   );
 }
