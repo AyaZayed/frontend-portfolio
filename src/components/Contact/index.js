@@ -38,7 +38,7 @@ function Contact() {
 
   return (
     <>
-      <div className="container contact-page">
+      <div className=" contact-page container">
         <div className="text-zone">
           <h1>
             <AnimatedLetters
