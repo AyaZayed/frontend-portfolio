@@ -4,7 +4,7 @@ This is my portfolio in which I showcase my work. This includes static sites mad
 
 ## Screenshot
 
-![Portfolio Homepage Screenshot](./src/images/Screenshot.png)
+![Portfolio Homepage Screenshot](./src/assets/images/Screenshot.png)
 
 To use this app run these commands:
 

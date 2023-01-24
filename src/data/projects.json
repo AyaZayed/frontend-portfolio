@@ -1,11 +1,44 @@
 [
   {
+    "id": "20",
+    "name": "To-do List",
+    "url": "https://react-to-do-list-app-gamma.vercel.app/",
+    "image": "/projects images/to do list.png",
+    "description": "Todo list app made with React.js and CSS",
+    "github": "https://github.com/AyaZayed/react-to-do-list-app"
+  },
+  {
     "id": "1",
     "name": "Tic Tac Toe Game",
     "url": "https://az-tic-tac-toe.netlify.app/",
     "image": "/projects images/tic tac toe.png",
     "description": "Game made with React.js and CSS",
     "github": "https://github.com/AyaZayed/React-Tic-Tac-Toe"
+  },
+  {
+    "id": "2",
+    "name": "Would You Rather Game",
+    "url": "https://az-would-you-rather.netlify.app/",
+    "image": "/projects images/would you rather.png",
+    "description": "Game made with React.js, Redux and CSS",
+    "github": "https://github.com/AyaZayed/Would-You-Rather"
+  },
+  {
+    "id": "3",
+    "name": "My Reads",
+    "url": "https://az-myreads.netlify.app/",
+    "image": "/projects images/my reads.png",
+    "description": "Book shelf organizer made with React.js and CSS",
+    "github": "https://github.com/AyaZayed/MyReads-React-Book-Shelf-Site"
+  },
+
+  {
+    "id": "21",
+    "name": "Word Recognizer",
+    "url": "https://react-word-recognizer-app.vercel.app/",
+    "image": "/projects images/word recognizer.png",
+    "description": "Word recognizer app made with React.js and CSS",
+    "github": "https://github.com/AyaZayed/React-Word-Recognizer-App"
   },
   {
     "id": "6",
@@ -23,14 +56,7 @@
     "description": "Frontend Mentor challenge made with HTML and CSS",
     "github": "https://github.com/AyaZayed/Frontend-Mentor-Social-Proof-Section"
   },
-  {
-    "id": "2",
-    "name": "Would You Rather Game",
-    "url": "https://az-would-you-rather.netlify.app/",
-    "image": "/projects images/would you rather.png",
-    "description": "Game made with React.js, Redux and CSS",
-    "github": "https://github.com/AyaZayed/Would-You-Rather"
-  },
+
   {
     "id": "8",
     "name": "Fylo",
@@ -39,14 +65,7 @@
     "description": "Frontend Mentor challenge made with HTML and CSS",
     "github": "https://github.com/AyaZayed/Frontend-Mentor-Fylo-Data-Storage-Component"
   },
-  {
-    "id": "3",
-    "name": "My Reads",
-    "url": "https://az-myreads.netlify.app/",
-    "image": "/projects images/my reads.png",
-    "description": "Book shelf organizer made with React.js and CSS",
-    "github": "https://github.com/AyaZayed/MyReads-React-Book-Shelf-Site"
-  },
+
   {
     "id": "9",
     "name": "Testimonials Grid",

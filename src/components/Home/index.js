@@ -20,19 +20,19 @@ function Home() {
   }, []);
 
   const onButtonClick = () => {
-        // using Java Script method to get PDF file
-        fetch('resume.pdf').then(response => {
-            response.blob().then(blob => {
-                // Creating new object of PDF file
-                const fileURL = window.URL.createObjectURL(blob);
-                // Setting various property values
-                let alink = document.createElement('a');
-                alink.href = fileURL;
-                alink.download = 'Aya Zayed Resume.pdf';
-                alink.click();
-            })
-        })
-    }
+    // using Java Script method to get PDF file
+    fetch("resume.pdf").then((response) => {
+      response.blob().then((blob) => {
+        // Creating new object of PDF file
+        const fileURL = window.URL.createObjectURL(blob);
+        // Setting various property values
+        let alink = document.createElement("a");
+        alink.href = fileURL;
+        alink.download = "Aya Zayed Resume.pdf";
+        alink.click();
+      });
+    });
+  };
 
   return (
     <>
@@ -60,15 +60,15 @@ function Home() {
             <AnimatedLetters
               letterClass={letterClass}
               strArr={jobArray}
-              idx={23}
+              idx={24}
             />
           </h1>
-          <a className="contact-button" onClick={onButtonClick}>
+          <button className="contact-button" onClick={onButtonClick}>
             DOWNLOAD CV
-          </a>
+          </button>
         </div>
         <div className="img-container">
-        <img src={Aya} alt="aya's image" className="solid-logo"/>
+          <img src={Aya} alt="aya's" className="solid-logo" />
         </div>
       </div>
       <Loader type="pacman" />

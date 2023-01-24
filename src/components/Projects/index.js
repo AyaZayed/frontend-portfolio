@@ -22,7 +22,9 @@ function Projects() {
       <div className="projects-container">
         {projects.map((project) => {
           return (
-            <div
+          
+            <a
+              href={project.url} target="_blank" rel="noreferrer"
               key={project.id}
               className="project-card"
               alt={project.description}
@@ -42,7 +44,8 @@ function Projects() {
                   <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
                 </a>
               </div>
-            </div>
+            </a>
+              
           );
         })}
       </div>

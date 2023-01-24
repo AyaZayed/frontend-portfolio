@@ -49,14 +49,13 @@
 
   .contact-button {
     text-decoration: none;
-    color: var(--main-orange);
+    background-color: var(--main-orange);
     border: 1px solid var(--main-orange);
     padding: 10px 20px;
     font-size: 13px;
     letter-spacing: 4px;
     animation: fadeIn 1s 1.5s backwards;
-    // position: absolute;
-    // bottom: -70px;
+    cursor: pointer;
     display: block;
     width: fit-content;
     margin-top: 70px;
